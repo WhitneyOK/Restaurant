@@ -1,0 +1,186 @@
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.topnav a {
+    color: yellowgreen;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav :hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+.hero__image {
+    background-image: url(image/istockphoto-1347890570-612x612.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__text {
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    top: 50%;
+    font-size: 2.5em;
+}
+
+button {
+    background-color: black;
+    border-radius: 2rem;
+    color: whitesmoke;
+    padding: 16px;
+    font-size: 0.5em;
+    border: none;
+}
+
+button:hover {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.hero1,
+.c1 {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero1 {
+    border-top: whitesmoke solid;
+    border-bottom: whitesmoke solid;
+    height: 100vh;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+
+.text {
+    font-size: 0.8em;
+    float: left;
+    width: 50.33%;
+    height: 50.33%;
+    padding: 20px;
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-right: 0;
+}
+
+.image {
+    height: 5%;
+    float: right;
+    width: 10.33%;
+    height: 10.33%;
+    padding-left: 5%;
+    padding-right: 0;
+    margin-top: 10%;
+    margin-left: 0;
+    margin-right: 30%;
+}
+
+
+
+
+
+
+
+h2 {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    font-size: 3.0em;
+    text-transform: capitalize;
+}
+
+
+.row {
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: 33.3%;
+}
+
+.col img {
+    width: 100%;
+
+
+}
+
+.col {
+    text-align: center;
+}
+
+
+
+
+/* .col { 
+    float: left;
+    width: 25.33%;
+     height: 25.33%; 
+    padding: 5px; 
+    text-align: center;
+}
+
+
+
+
+/*revist*/
+
+.col :hover {
+    opacity: 0.7;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    display: flex;
+}
+
+
+
+
+    .c1 :hover {
+        color: yellowgreen;
+    }
+
+    /*revisit*/
+
+    .footer {
+        border-top: whitesmoke solid;
+        margin-top: 4;
+        display: inline-block;
+        padding: 1px 1px;
+        color: whitesmoke;
+    }
+
+    .footer {
+        color: whitesmoke;
+        display: inline-block;
+        padding: 14px 14px 1px;
+        text-decoration: none;
+        border-top: 1px solid whitesmoke;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .footer :hover{
+        opacity: 0.7;
+    }
+    .fa-brands{
+        color: white;
+        ;
+    }
