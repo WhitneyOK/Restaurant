@@ -20,7 +20,7 @@ body {
 }
 
 .hero__image {
-    background-image: url(table-2600954\ \(1\).jpg);
+    background-image: url(img/table-2600954\ \(1\).jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -180,7 +180,9 @@ h2 {
     .footer :hover{
         opacity: 0.7;
     }
+    
     .fa-brands{
         color: white;
-        ;
     }
+
+    
